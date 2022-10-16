@@ -1,2 +1,4 @@
 gip
 autgit.sh
+*.c
+*a.out
