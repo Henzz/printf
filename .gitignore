@@ -1,4 +1,6 @@
 gip
 autgit.sh
 *main.c
-*a.out
+_printf.c
+printf.ex
+Betty/
