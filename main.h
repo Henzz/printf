@@ -11,5 +11,7 @@ int _strlen(const char *str);
 char *_convert(unsigned int num, int base);
 int _putstr(char *stri);
 void _prtbin(unsigned int integer);
-
+char *_convertLC(unsigned int num, int base);
+int _revstr(va_list l);
+	
 #endif

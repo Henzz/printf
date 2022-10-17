@@ -78,9 +78,14 @@ int _printf(const char *format, ...)
 					}
 				case 'x':{
 					unsigned int hex = va_arg(args, unsigned int);
-					_putstr(_convert(hex, 16));
+					_putstr(_convertLC(hex, 16));
 					break;
 					 }
+				case 'r':{
+					_revstr(args);;
+					break;
+					 }
+
 				
 				
 			}
